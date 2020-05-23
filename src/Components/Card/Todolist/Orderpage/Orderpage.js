@@ -33,7 +33,7 @@ class Orderpage extends Component {
           <ul className="orderpageul">
             <li>
               <img
-                src="/images/pagenotfound.gif"
+                src="/images/oderpageimg.gif"
                 alt="orderpageimage"
                 className="orderpageimage"
               />
