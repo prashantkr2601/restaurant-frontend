@@ -1,0 +1,46 @@
+.Navbarnavul {
+  list-style: none;
+  display: flex;
+  user-select: none;
+  flex-wrap: wrap;
+}
+.Navbarnavul {
+  justify-content: space-between;
+}
+.Navbarnavulli {
+  margin-right: 10px;
+  font-size: 1.2 em;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: green;
+  text-decoration: none;
+}
+
+.Navbarnavulli:hover {
+  background-color: white;
+  color: green;
+}
+
+@media only screen and (max-width: 750px) {
+  .Navbarnavul li {
+    font-size: 2.5vw;
+  }
+}
+
+.Navbarnavimage {
+  background-image: linear-gradient(
+    -90deg,
+    rgb(235, 210, 210),
+    rgb(199, 241, 199)
+  );
+  border-radius: 20px;
+  background-size: 100% 100%;
+  width: 100%;
+  max-height: fit-content;
+  padding: 5px;
+  padding-bottom: 10px;
+  background-repeat: no-repeat;
+}
