@@ -1,0 +1,72 @@
+.SCardMD {
+  width: 350px;
+  user-select: none;
+  padding: 5px;
+}
+
+.SCardMDul {
+  background-image: linear-gradient(
+    -90deg,
+    rgb(235, 210, 210),
+    rgb(199, 241, 199)
+  );
+  list-style-type: none;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  border-radius: 10px;
+}
+.SCardMDul :nth-child(1) {
+  width: 150px;
+  height: 210px;
+  border-radius: 10px;
+}
+
+.SCardMDul :nth-child(2) {
+  width: 45%;
+  height: 200px;
+  margin-left: 5px;
+}
+.SCardMDul :nth-child(3) {
+  width: auto;
+}
+.resnamesinglecard {
+  font-weight: bold;
+  text-align: center;
+  color: red;
+  text-decoration: none;
+}
+.resnamesinglecard:hover {
+  color: green;
+}
+.SCardMDOB {
+  cursor: pointer;
+  padding: 5px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.SCardMDOB:hover {
+  color: red;
+}
+@media only screen and (max-width: 350px) {
+  .SCardMDul :nth-child(1) {
+    width: 100%;
+    height: 100px;
+  }
+  .SCardMDul :nth-child(2) {
+    width: 100%;
+    height: 100px;
+  }
+  .SCardMDul {
+    width: 90%;
+    font-size: 2vw;
+    height: 102px;
+  }
+  .SCardMDul li::nth-child(2) span {
+    padding-block-start: 5px;
+  }
+}
